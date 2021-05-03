@@ -1,0 +1,33 @@
+baseURL = "100.123.96.119"
+languageCode = "en-us"
+title = "Sven Peter"
+theme = "noteworthy"
+enableRobotsTXT = false
+paginate = 4 # Set the number of posts to show before overflowing to the next page.
+summaryLength = 10 # Configure how long the post summary should be on the homepage.
+
+[[menu.main]]
+	name = "Home"
+	identifier = "home"
+	url = "/"
+	weight = 1
+
+[[menu.main]]
+	name = "Archives"
+	identifier = "archives"
+	url = "/archives/"
+	weight = 3
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[author]
+	name = "sven"
+
+[params]
+    twitter = "https://twitter.com/svenpeter42"
+    github = "https://github.com/svenpeter42"
+    email = "mailto:sven@svenpeter.dev"
+    linkedin = "https://www.linkedin.com/in/svenpeter/"
