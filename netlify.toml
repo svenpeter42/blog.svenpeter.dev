@@ -1,5 +1,5 @@
 [build]
-  command = "hugo --baseURL https://blog.svenpeter.dev/"
+  command = "hugo --minify --baseURL https://blog.svenpeter.dev/"
 
 [context.production]
   environment = { HUGO_VERSION = "0.82.1" }
@@ -17,20 +17,20 @@
 [[headers]]
   for = "/img/*"
   [headers.values]
-    Cache-Control = "public, s-max-age=604800"
+    Cache-Control = "public, s-maxage=604800, max-age=604800"
 [[headers]]
   for = "/fonts/*"
   [headers.values]
-    Cache-Control = "public, s-max-age=604800"
+    Cache-Control = "public, s-maxage=604800, max-age=604800"
 [[headers]]
   for = "/*.png"
   [headers.values]
-    Cache-Control = "public, s-max-age=604800"
+    Cache-Control = "public, s-maxage=604800, max-age=604800"
 [[headers]]
   for = "/*.css"
   [headers.values]
-    Cache-Control = "public, s-max-age=604800"
+    Cache-Control = "public, s-maxage=604800, max-age=604800"
 [[headers]]
   for = "/*.js"
   [headers.values]
-    Cache-Control = "public, s-max-age=604800"
+    Cache-Control = "public, s-maxage=604800, max-age=604800"
