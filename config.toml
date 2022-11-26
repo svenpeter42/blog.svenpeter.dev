@@ -27,7 +27,7 @@ summaryLength = 10 # Configure how long the post summary should be on the homepa
 	name = "sven"
 
 [params]
-    twitter = "https://twitter.com/svenpeter42"
+    mastodon = "https://social.treehouse.systems/@sven"
     github = "https://github.com/svenpeter42"
     email = "mailto:sven@svenpeter.dev"
     linkedin = "https://www.linkedin.com/in/svenpeter/"
